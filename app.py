@@ -12,7 +12,7 @@ json_files = {
 st.header("BenCoref Explorer")
 
 # Create a dropdown to select a JSON file
-selected_file = st.selectbox("Select a file", list(json_files.keys()))
+selected_file = st.selectbox("Select a Category", list(json_files.keys()))
 
 # Define the URL of the selected JSON file
 json_url = json_files[selected_file]
